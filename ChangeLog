@@ -1,4 +1,4 @@
-2012-02-07  Martin Simmons (martin@lispworks.com>
+2012-02-07  Martin Simmons <martin@lispworks.com>
 
 	* swank-lispworks.lisp (dspec-file-position): Fall back to regexp
 	search if dspec-stream-position gets an error.
@@ -254,7 +254,7 @@
 	build on top of just INPUT-READY-P.
 	(input-ready-p): Outside Windows, use SYSREAD-MAY-BLOCK-P to check.
 
-2011-12-03  Gábor Melis  <mega@retes.hu>
+2011-12-03  Gï¿½bor Melis  <mega@retes.hu>
 
 	* swank-allegro.lisp (set-default-initial-binding): In 9.0 alpha,
 	*CL-DEFAULT-SPECIAL-BINDINGS* is [soon to be] deprecated.  It's
@@ -780,7 +780,7 @@
 
 	* swank-allegro.lisp (find-topframe): Fix excl::int-newest-frame
 	invocation for the latest alpha version of Allegro.
-	Patch by Gábor Melis.
+	Patch by Gï¿½bor Melis.
 
 2011-02-18  Stas Boukarev  <stassats@gmail.com>
 
@@ -1293,7 +1293,7 @@
 	* swank-sbcl.lisp (quit-lisp): Use sb-thread:terminate-thread
 	instead of sb-ext:quit :recklessly-p t. This way
 	sb-ext:*exit-hooks* will be run.
-	Reported by Lorenz Mösenlechner.
+	Reported by Lorenz Mï¿½senlechner.
 
 2010-07-06  Helmut Eller  <heller@common-lisp.net>
 
@@ -2736,7 +2736,7 @@
 	* swank-abcl.lisp (arglist):  Fixes for functions with non-nil
 	arglist and for generic functions with empty argument lists.
 
-	Diagnosed and cured by Matthias Hölzl.
+	Diagnosed and cured by Matthias Hï¿½lzl.
 
 2009-11-23  Stas Boukarev  <stassats@gmail.com>
 
